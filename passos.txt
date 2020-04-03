@@ -1,0 +1,8 @@
+# Sobe os containers com 3 instâncias do worker
+docker-compose up -d --scale worker=3 
+
+# Derruba os containers
+docker-compose down 
+
+# Visualiza os logs
+docker-compose logs -f -t 
